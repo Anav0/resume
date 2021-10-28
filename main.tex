@@ -1,11 +1,10 @@
 \documentclass[10pt]{article}
 
-\usepackage[utf8]{inputenc}
 \usepackage{titlesec}
 \usepackage{titling}
 \usepackage{tabularx}
 \usepackage{float}
-\usepackage{babel}[polish]
+\usepackage{polyglossia}
 
 \usepackage[margin=1in]{geometry}
 
@@ -43,75 +42,75 @@
 
 \maketitle
 
-\section{Education}
-\subsection{University of Opole}
-\subsubsection{Masters of Computer Science 2020 - 2021}
+\section{Wykształcenie}
+\subsection{Uniwersytet Opolski}
+\subsubsection{Magister informatyki 2020 - 2021}
 \begin{table}[H]
     \begin{tabularx}{\textwidth}{@{}l X}
-     \textbf{Dissertation thesis:} & \textit{``Design and implementation of a simulated annealing algorithm for scheduling rehabilitation appointments``} \\
+     \textbf{Tytuł pracy:} & \textit{``Projekt i Implementacja algorytmu symulowanego wyżarzania w celu wyznaczenia terminów rehabilitacji``} \\
     \end{tabularx}
 \end{table}
-\noindent In this thesis I try to solve rehabilitation scheduling problem. For that I have developed universal framework for solving any optimization problem with any built in metaheurists. Framework was written in \emph{.Net 5.0} but efficiency analysis was partly in \emph{python, pandas and matplotlib}.
-\subsubsection{Bachelor of Computer Science 2016 - 2020}
+\noindent W swojej pracy starałem się rozwiązać problem harmonogramowania zabiegów rehabilitacyjnych. W tym celu stworzyłem framework zdolny do rozwiązania dowolnego problemu optymalizacji za pomocą wbudowanych algorytmów metaheurystycznych. Framework został napisany w \emph{.Net 5.0} lecz analiza danych została przeprowadzona w \emph{python, pandas i matplotlib}.
+\subsubsection{Inżynier informatyki 2016 - 2020}
 \begin{table}[H]
     \begin{tabularx}{\textwidth}{@{}l X}
-    \textbf{Dissertation thesis:} &  \textit{``Example of instant messenger featuring chatbot implementation``}\\
+    \textbf{Tytuł pracy:} &  \textit{``Przykład komunikatora wzbogaconego o implementację czatbota``}\\
     \end{tabularx}
 \end{table}
-\noindent As my engineering project I created \href{https://www.behance.net/gallery/91600605/Gymba-chat}{chat application} with \emph{Vue}, \emph{Node js}, \emph{socket.io} and \emph{MongoDb}.
-\section{Career}
-\subsection{Medinet Nov 2020 - Present (11 mth)}
-At Medinet I'm working with .Net 5.0 to optimize process of scheduling rehabilitation appointments. To solve this problem I have written .Net package that allows user to solve any optimization problem he desires with different metaheuristics.
-\subsection{BCF Software Jul 2019 - Dec 2019 (7 mth) }
-At BCF Softwere I work as frontend developer with React, Vue and Nuxt. Some project that I helped create are:
+\noindent Jako projekt inżynierski stworzyłem \href{https://www.behance.net/gallery/91600605/Gymba-chat}{komunikator} napisany we \emph{Vue}, \emph{Node js}, \emph{socket.io} i \emph{MongoDb}.
+\section{Kariera}
+\subsection{Medinet List. 2020 - List. 2021 (12 ms)}
+W firmie Medinet pracowałem z .Net 5.0 w celu optymalizacji procesu harmonogramowania zagiebów rehabilitacyjnych.
+\subsection{BCF Software Lipiec 2019 - Grudzień 2019 (7 ms) }
+W firmie BCF Softwere procowałem jako frontend developer z React'em, Vue oraz Nuxt'em. Oto wybrane projekty które współtworzyłem:
     \href{https://cryptogamble.com}{cryptogamble.com}, \href{https://lotterija.com}{lotterija.com}, \href{https://bgs.bet}{bgs.bet}.
-\section{Certificates}
-\Large \textbf{Software Development Fundamentals} (Jun 2019) \vspace{0.3em}\\
+\section{Certyfikaty}
+\Large \textbf{Software Development Fundamentals} (Lipiec 2019) \vspace{0.3em}\\
 \large Microsoft \vspace{0.5em} \\
 \small ID dPYP-DTRs \\
 \newpage
-\section{Skills}
-\subsection{Programming}
+\section{Umiejętności}
+\subsection{Programowanie}
 \renewcommand{\arraystretch}{2.5}
 \begin{table}[H]
     \begin{tabularx}{\textwidth}{@{}l X}
-         \textbf{C\#} & I can write code that executes in parallel, I know how to use memoization. Dictionary and StringBuilder are my friends. I know most of design patterns from book: \em ``Head first: design patterns``. I've used EF Core in some of my projects.\\
-         \textbf{.Net} & I can write standalone NuGet package, REST API with SQL or Mongo backend or some WPF if need be. I know about microservices and their principals but never touched them. \\
-         \textbf{Moq} & I can write Unit Test with mocks but TDD is not as fast as Bob would like us to believe.  \\
-         \textbf{MS SQL} & I can write queries without creating index for every column and making too many joins. \\
-	 \textbf{Javascript / Typescript} & I know about ES6, event loop and prototype.\\
-	 \textbf{Node.js} & I can create standard backend with REST API.\\
-         \textbf{MongoDb} & I used it in my engeneering project along with \emph{Mongoose ORM}. \\
-         \textbf{Frontend frameworks} & I know good chunk of them in different level of proficiency. Here they are listed from best known to least: \bfseries \em Svelte, React, Gatsby, Nuxt, Vue. \\
-         \textbf{Gsap} & I can animate complex svg files.\\
-         \textbf{Python} & Able to write simple Flask API, python scripts e.g scraping websites or implementing some CS algorithm (Moore, Hoopcroft). Apart from that I'm competent enough to analyze data and produce nice plots (\bfseries \em matplotlib, pandas, seaborn, numpy). \\
-         \textbf{Rust} & I'm just learning it and I must say it is the best documented language out there. I'm currently writing simple CLI epub reader and Linux system bootstraper to fully understand it. \\
+         \textbf{C\#} & Potrafię pisać kod uruchamiany wielowątkowo, Wiem jak wykorzystać techniki memoizacji. Dictionary oraz StringBuilder to moi kumple. Znam większość wzorców projektowych z książki: \em ``Head first: design patterns``. Wykorzystałem EF core w kilku swoich projektach.\\
+         \textbf{.Net} & Potrafię stworzyć paczki NuGet, REST API z SQL lub Mongo jako system bazodanowy lub aplikację WPF jeśli zajdzie taka potrzeba. Wiem na jakiej zasadzie działają mikroserwisy ale nigdy żadnego nie tworzyłem. \\
+         \textbf{Moq} & Potrafię napisać zmockowane testy jednostkowe lecz TDD nie jest tak super jak Bob chciałby aby było.  \\
+         \textbf{MS SQL} & Potrafię napisać kwerendy bez tworzenia indeksu dla każdej kolumny oraz przy minimalnej ilości join'ów. \\
+	 \textbf{Javascript / Typescript} & Znam ES6, event loop oraz co to jest prototype.\\
+	 \textbf{Node.js} & Potrafię stworzyć typowy backend wraz z REST API.\\
+         \textbf{MongoDb} & Wykorzystałem mongo w pracy inżynierskiej razem z \emph{Mongoose ORM}. \\
+         \textbf{Frontend} & Znam każdy z nich w różnym stopniu wtajemniczenia. Tutaj są one wypisane od najlepiej opanowanego do najmniej: \bfseries \em Svelte, React, Gatsby, Nuxt, Vue. \\
+         \textbf{Gsap} & Potrafię animować pliki svg.\\
+         \textbf{Python} & Potrafię stworzyć proste Flask API, skrypty np. do parsowanie stron internetowych (scraping) czy implementacji algorytmu np. Moore'a, Hoopcroft'a. Oprócz tego potrafię stworzyć ładne wykresy (\bfseries \em matplotlib, pandas, seaborn, numpy). \\
+         \textbf{Rust} &Dopiero się go uczę lecz muszę powiedzieć, że jest to najlepiej udokumentowany język z jakim pracowałem. Obecnie tworze dwa programy aby w pełni zrozumieć ten język (epub reader, linux bootstraper). \\
     \end{tabularx}
 \end{table}
-\subsection{Misc}
+\subsection{Inne}
 \begin{table}[H]
         \begin{tabularx}{\textwidth}{@{}l X}
-         \LaTeX & I can write palatable documents. \\
-         \textbf{Postman} & For documenting and running API calls.  \\
-         \textbf{Jira} & For managing tickets.  \\
+         \LaTeX & Potrafię stworzyć eleganckie dokumenty. \\
+         \textbf{Postman} & W celu dokumentacji i testowania API.  \\
+         \textbf{Jira} & Do zarządzania zadaniami.  \\
 \end{tabularx}
 \end{table}
-\section{Languages}
+\section{Języki}
 \begin{table}[H]
         \begin{tabularx}{\textwidth}{@{}l X}
-         \bfseries English & C1. \\
-         \bfseries Polish & Native.  \\
+         \bfseries Angielski & C1. \\
+         \bfseries Polski & Ojczysty.  \\
 \end{tabularx}
 \end{table}
-\section{Interests}
+\section{Zainteresowania}
 \begin{itemize}
-    \item \href{http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-b5b6fec4-8161-42ac-9a31-c0e6c344f9fa}{Sunni and shia propaganda in poetry}.
-    \item historical wargaming.
-    \item Strolling across communist era districts in my city to admire architecture.
+    \item \href{http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-b5b6fec4-8161-42ac-9a31-c0e6c344f9fa}{Sunnicka i szyicka propaganda w poezji śpiewanej}.
+    \item Historyczne gry wojenne (Kriegspiel).
+    \item Podziwianie komunistycznej architektury z grzbietu mojego roweru.
 \end{itemize}
 \vfill
 \begin{center}
-I allow anyone who is in possession of this document to use it for any necessary recruiting processes.
+Zezwalam każdemu kto jest w posiadaniu tego dokumentu do wykorzystania go w celach rekrutacyjnych.
 \end{center}
 \end{document}
 

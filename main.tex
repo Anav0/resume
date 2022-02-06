@@ -1,0 +1,122 @@
+\documentclass[10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage{tabularx}
+\usepackage{float}
+\usepackage{babel}[polish]
+
+\usepackage[margin=1in]{geometry}
+
+\usepackage{hyperref}
+
+\author{Igor Motyka}
+\title{Resume}
+
+ \renewcommand{\maketitle}{
+ \begin{center}
+    \huge\bfseries\theauthor
+ \end{center}
+ \begin{center}
+    \href{mailto:igor\_motyka@mail.com}{igor\_motyka@mail.com}\\
+ \end{center}
+ \begin{center}
+	 \href{https://github.com/Anav0}{Github} \hspace{0.7cm} \href{https://www.linkedin.com/in/igor-m-873439168/}{Linkedin} \hspace{0.7cm} \href{https://igormotyka.netlify.app/}{My website}
+ \end{center}
+ }
+\renewcommand{\familydefault}{\rmdefault}
+\DeclareTextFontCommand{\emph}{\bfseries\em}
+
+\titleformat{\section}
+{\huge\bfseries}{}{0em}{}[\titlerule]
+
+\titleformat{\subsection}
+{\Large\bfseries}{}{0em}{}
+
+\titleformat{\subsubsection}
+{\large\bfseries}{$\bullet$}{1em}{}
+
+\renewcommand{\arraystretch}{0}
+
+\begin{document}
+
+\maketitle
+
+\section{Education}
+\subsection{University of Opole}
+\subsubsection{Masters of Computer Science 2020 - 2021}
+\begin{table}[H]
+    \begin{tabularx}{\textwidth}{@{}l X}
+     \textbf{Dissertation thesis:} & \textit{``Design and implementation of a simulated annealing algorithm for scheduling rehabilitation appointments``} \\
+    \end{tabularx}
+\end{table}
+\noindent In this thesis I try to solve rehabilitation scheduling problem. For that I have developed universal framework for solving any optimization problem with any built in metaheurists. Framework was written in \emph{.Net 5.0} but efficiency analysis was partly in \emph{python, pandas and matplotlib}.
+\subsubsection{Bachelor of Computer Science 2016 - 2020}
+\begin{table}[H]
+    \begin{tabularx}{\textwidth}{@{}l X}
+    \textbf{Dissertation thesis:} &  \textit{``Example of instant messenger featuring chatbot implementation``}\\
+    \end{tabularx}
+\end{table}
+\noindent As my engineering project I created \href{https://www.behance.net/gallery/91600605/Gymba-chat}{chat application} with \emph{Vue}, \emph{Node js}, \emph{socket.io} and \emph{MongoDb}.
+\section{Career}
+\subsection{PKO Bank Polski Nov 2021 - Feb 2022 (3 mth)}
+At PKO I'm a backend team member tasked with further development of software responsible for creating credit offer for individual customers.
+\subsection{Medinet Nov 2020 - Nov 2021 (1 yr)}
+At Medinet I'm working with .Net 5.0 to optimize process of scheduling rehabilitation appointments. To solve this problem I have written .Net package that allows user to solve any optimization problem he desires with different metaheuristics.
+\subsection{BCF Software Jul 2019 - Dec 2019 (7 mth) }
+At BCF Softwere I work as frontend developer with React, Vue and Nuxt. Some project that I helped create are:
+    \href{https://cryptogamble.com}{cryptogamble.com}, \href{https://lotterija.com}{lotterija.com}, \href{https://bgs.bet}{bgs.bet}.
+
+\newpage
+\section{Skills}
+\subsection{Programming}
+\renewcommand{\arraystretch}{2.5}
+\begin{table}[H]
+    \begin{tabularx}{\textwidth}{@{}l X}
+         \textbf{C\#} & I can write code that executes in parallel, I know how to use memoization. Dictionary and StringBuilder are my friends. I know most of design patterns from book: \em ``Head first: design patterns``. I've used EF Core in some of my projects.\\
+         \textbf{.Net} & I can write standalone NuGet package, REST API with SQL or Mongo backend or some WPF if need be. I know about microservices and their principals but never touched them. \\
+         \textbf{Moq} & I can write Unit Test with mocks but TDD is not as fast as Bob would like us to believe.  \\
+         \textbf{MS SQL} & I can write queries without creating index for every column and making too many joins. \\
+	 \textbf{Javascript / Typescript} & I know about ES6, event loop and prototype.\\
+	 \textbf{Node.js} & I can create standard backend with REST API.\\
+         \textbf{MongoDb} & I used it in my engeneering project along with \emph{Mongoose ORM}. \\
+         \textbf{Frontend frameworks} & I know good chunk of them in different level of proficiency. Here they are listed from best known to least: \bfseries \em Svelte, React, Gatsby, Nuxt, Vue. \\
+         \textbf{Gsap} & I can animate complex svg files.\\
+         \textbf{Python} & Able to write simple Flask API, python scripts e.g scraping websites or implementing some CS algorithm (Moore, Hoopcroft). Apart from that I'm competent enough to analyze data and produce nice plots (\bfseries \em matplotlib, pandas, seaborn, numpy). \\
+         \textbf{Rust} & I'm just learning it and I must say it is the best documented language out there. I'm currently writing simple CLI epub reader and Linux system bootstraper to fully understand it. \\
+    \end{tabularx}
+\end{table}
+\subsection{Misc}
+\begin{table}[H]
+        \begin{tabularx}{\textwidth}{@{}l X}
+         \LaTeX & I can write palatable documents. \\
+         \textbf{Postman} & For documenting and running API calls.  \\
+         \textbf{Jira} & For managing tickets.  \\
+          \textbf{Google Cloud Platform} & I can build docker images via pipline and publish them on GCP Cloud Run. I can also use buckets.  \\
+           \textbf{Github actions} & I can create basic pipelines to build , test and publish releases.  \\
+\end{tabularx}
+\end{table}
+\section{Languages}
+\begin{table}[H]
+        \begin{tabularx}{\textwidth}{@{}l X}
+         \bfseries English & C1. \\
+         \bfseries Polish & Native.  \\
+\end{tabularx}
+\end{table}
+\section{Certificates}
+\Large \textbf{Software Development Fundamentals} (Jun 2019) \vspace{0.3em}\\
+\large Microsoft \vspace{0.5em} \\
+\small ID dPYP-DTRs \\
+\section{Interests}
+\begin{itemize}
+    \item \href{http://cejsh.icm.edu.pl/cejsh/element/bwmeta1.element.desklight-b5b6fec4-8161-42ac-9a31-c0e6c344f9fa}{Sunni and shia propaganda in poetry}.
+    \item Historical wargaming.
+    \item Strolling across communist era districts in my city to admire architecture.
+\end{itemize}
+\vfill
+\begin{center}
+I allow anyone who is in possession of this document to use it for any necessary recruitment processes.
+\end{center}
+\end{document}
+
